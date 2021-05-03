@@ -1,0 +1,89 @@
+h1 {
+  margin: 0;
+}
+
+a {
+  color: cornflowerblue;
+}
+.title-quote {
+  text-align: center;
+  position: relative;
+  color: #fff;
+  margin: 0;
+  padding: 5px;
+  top: 100px;
+  font-size: 70px;
+  font-family: "Cormorant Unicase", serif;
+}
+.heading {
+  font-family: "Cormorant Unicase", serif;
+  text-align: center;
+  font-size: 60px;
+}
+
+.list-heading {
+  font-family: "Cormorant Unicase", serif;
+  font-size: 20px;
+  position: relative;
+  left: 200px;
+}
+.history {
+  background: #000;
+  font-family: "Montserrat", sans-serif;
+}
+
+.image {
+  position: relative;
+  height: 400px;
+  width: 400px;
+  border: 1px solid white;
+  border-radius: 10px;
+}
+
+.image1 {
+  position: relative;
+  top: 100px;
+  left: 700px;
+}
+.image2 {
+  position: relative;
+  top: 100px;
+  left: 400px;
+}
+.image3 {
+  position: relative;
+  top: 100px;
+  left: 600px;
+}
+
+.info {
+  position: relative;
+  /* top: 100px; */
+  margin: 200px;
+  font-size: 30px;
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+}
+
+.contact-form-input {
+  display: relative;
+  padding: 20px;
+  margin-left: 500px;
+  font-size: 30px;
+}
+input {
+  height: 30px;
+  width: 200px;
+}
+button {
+  height: 30px;
+  width: 200px;
+  font-family: "Cormorant Unicase", serif;
+  background-color: rgb(149, 201, 231);
+  border: 2px whitesmoke;
+  font-size: 20px;
+}
+button:hover {
+  background-color: rgb(5, 32, 30);
+  color: #fff;
+}
