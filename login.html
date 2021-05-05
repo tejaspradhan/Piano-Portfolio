@@ -12,14 +12,20 @@
     <title>Login Page</title>
 </head>
 <body>
-    <form name="loginform" class="form-signin" onsubmit="return validateForm()" action="index.html" method="POST">
-        <h1 class="h3 mb-3 font-weight-normal">Sign In </h1>
-        <label for="inputEmail" class="sr-only">Username</label>
-        <input type="text" id="inputEmail" name="username" class="form-control" placeholder="Username" required autofocus>
-        <label for="inputPassword"  class="sr-only">Password</label>
-        <input type="password" id="inputPassword" name="pwd" class="form-control" placeholder="Password" required>
-        <input class="btn btn-lg btn-success btn-block" type="submit" value="Login">
-    </form>
+    <div class="login-content">
+        <form name="loginform" class="form-signin" onsubmit="return validateForm()" action="index.html" method="POST">
+            <h1 class="h3 mb-3 font-weight-normal">Sign In </h1>
+            <label for="inputEmail" class="sr-only">Username</label>
+            <input type="text" id="inputEmail" name="username" class="form-control" placeholder="Username" required
+                autofocus>
+            <label for="inputPassword" class="sr-only">Password</label>
+            <input type="password" id="inputPassword" name="pwd" class="form-control" placeholder="Password" required>
+            <input class="btn btn-lg btn-success btn-block" type="submit" value="Login">
+        </form>
+    </div>
+    <section class="video-overlay"></section>
+    <video class="bg-vid" src="images/bg-video.mp4" autoplay="true" loop="true" muted></video>
+
     <script src="script.js"></script>
 </body>
 </html>

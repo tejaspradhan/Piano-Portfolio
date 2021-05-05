@@ -1,11 +1,10 @@
 html,
 body {
   height: 100%;
-  background-image: url("../images/piano-bg.jpg");
 }
 
 h1 {
-  color: black;
+  color: white;
   font-weight: bolder;
   text-align: center;
 }
@@ -20,9 +19,8 @@ body {
   align-items: center;
   -webkit-box-pack: center;
   justify-content: center;
-  padding-top: 40px;
-  padding-bottom: 40px;
   background-color: #f5f5f5;
+  overflow-x: hidden;
 }
 
 .form-signin {
@@ -53,4 +51,25 @@ body {
   margin-bottom: 10px;
   border-top-left-radius: 0;
   border-top-right-radius: 0;
+}
+
+.bg-vid {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+.video-overlay {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: 1;
+  background-color: rgb(8, 37, 75);
+  opacity: 0.7;
+}
+.login-content {
+  z-index: 2;
 }
