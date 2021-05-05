@@ -4,7 +4,7 @@ h1 {
 
 @media screen and (max-width: 800px) {
   .list-heading {
-    margin-left: 50px;
+    margin-left: 50px !important;
   }
 }
 
@@ -78,6 +78,8 @@ a {
 .list-heading {
   font-family: "Cormorant Unicase", serif;
   font-size: 20px;
+  position: relative;
+  margin-left: 300px;
 }
 .history {
   background: #000;
