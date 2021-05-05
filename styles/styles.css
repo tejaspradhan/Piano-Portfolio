@@ -8,13 +8,31 @@ h1 {
   }
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1200px) {
   .image {
     height: 200px !important;
     width: 200px !important;
   }
 }
 
+@media screen and (max-width: 1200px) {
+  .image1 {
+    left: 250px !important;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .image2 {
+    left: 100px !important;
+    top: 100px !important;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .image3 {
+    left: 400px !important;
+  }
+}
 @media screen and (max-width: 1200px) {
   .contact-form-input {
     margin-left: 50px !important;
