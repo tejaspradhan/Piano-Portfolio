@@ -19,7 +19,7 @@
             <input type="text" id="inputEmail" name="username" class="form-control" placeholder="Username" required
                 autofocus>
             <label for="inputPassword" class="sr-only">Password</label>
-            <input type="password" id="inputPassword" name="pwd" class="form-control" placeholder="Password" required>
+            <input type="password" id="inputPassword" name="pwd" class="form-control" pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*#?&])[A-Za-z\d@$!%*#?&]{11,}$"  placeholder="Password"  title="password must contain at least one uppercase letter one digit and one special character and should be of minimum 11 characters"required>
             <input class="btn btn-lg btn-success btn-block" type="submit" value="Login">
         </form>
     </div>
